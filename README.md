@@ -5,6 +5,7 @@
   - Въведение в облачната среда
   - Въведение в микро-услугите
   - Цели за качество
+  - въведение в архитектурния процес
 2. Archicting Cloud-Native .NET APPs
 3. Aechitecture for Containerized
 4. 
