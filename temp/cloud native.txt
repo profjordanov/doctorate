@@ -31,6 +31,8 @@ ii Contents
 Azure Key Vault. 33
 Configuration in eShop.. 33
 References... 34
+
+
 Scaling cloud-native applications 35
 Leveraging containers and orchestrators 35
 Challenges with monolithic deployments .. 35
