@@ -1,0 +1,226 @@
+
+Term
+
+Full name
+
+Description
+
+OBS
+
+Object Storage Service
+
+An object-based cloud storage service. It provides data storage of easy extensibility, high security, proven reliability, and high cost efficiency. 
+
+EIP
+
+Elastic IP Address
+
+The Elastic IP Address (EIP) service provides independent public IP addresses and bandwidth to the Internet. An EIP can be flexibly associated with or disassociated from an ECS, BMS, virtual IP address, load balancer, or NAT gateway. 
+Various billing modes are provided to meet diversified service requirements.
+
+ARM
+
+Advanced Reduced Instruction Set Computing Machines
+
+Reduced instruction set computing, is a CPU design strategy based on the insight that a simplified instruction set provides higher performance when combined with a microprocessor architecture capable of executing those instructions using fewer microprocessor cycles per instruction. A computer based on this strategy is a reduced instruction set computer.
+
+VMware
+
+/
+
+A leader in virtualization technology. VMware provides a portfolio of software products for virtualizing hardware resources to enable one physical server to take the role of multiple servers.
+
+X86
+
+/
+
+x86 is the generic name for Intel processors released after the original 8086 processor.
+
+OpenStack
+
+/
+
+OpenStack is a free and open-source software platform for cloud computing, mostly deployed as Infrastructure as a Service (IaaS), whereby virtual servers and other resources are made available to customers. The software platform consists of interrelated components that control diverse, multi-vendor hardware pools of processing, storage, and networking resources throughout a data center.
+
+Docker
+
+/
+
+The term docker can refer to The Docker project as a whole, which is a platform for developers and sysadmins to develop, ship, and run applications the docker daemon process running on the host which manages images and containers
+
+VPN
+
+Virtual Private Network
+
+The term describes any technology that can encapsulate and transmit network data, typically Internet Protocol data, over another network. Such a system enables users to access network resources that may otherwise be inaccessible from the public internet.
+
+DNS
+
+·        Domain Name Server
+
+ 
+
+A functional entity in the TCP/IP network. With deployment of the DNS, subscribers can access related servers using corresponding domain names. In the TCP/IP network, a domain name maps an IP address. Domain names are easier to remember but servers in the network communicate with each other using IP addresses. Therefore the DNS is used to convert domain names to corresponding IP addresses.
+
+TCP/IP
+
+Transmission Control Protocol/Internet Protocol
+
+Common name for the suite of protocols developed to support the construction of worldwide internetworks.
+
+WWW
+
+·        World Wide Web
+
+A large scale hypermedia information system that allows users to browse information.
+
+ESXi
+
+/
+
+A virtualization platform for creating and running virtual machines. ESXi virtualizes processor, memory, and storage resources and allocates the resources for virtual machines. Virtual machines, operating systems, and applications can run above the ESXi.
+
+Xen
+
+ 
+
+Xen is a Hypervisor providing services that allow multiple computer operating systems to execute on the same computer hardware concurrently.
+
+KVM
+
+·        Kernel-based Virtual Machine
+
+Kernel-based Virtual Machine (KVM) is a virtualization infrastructure for the Linux kernel. KVM requires a processor with hardware virtualization extension.
+
+LXC
+
+Linux Container
+
+LXC (Linux Containers) is an operating-system-level virtualization method for running multiple isolated Linux systems (containers) on a control host using a single Linux kernel.
+
+Hyper-V
+
+/
+
+A VM system provided by Microsoft, which is installed on hosts.
+
+EC2
+
+Elastic Compute Cloud
+
+Amazon Elastic Computing Cloud (Amazon EC2) is a web service provided by Amazon. It enables users to rent cloud computers to run required applications.
+
+S3
+
+Simple Storage Service
+
+Amazon Simple Storage Service is storage for the Internet. It is designed to make web-scale computing easier for developers.
+
+
+
+
+Term
+
+Full name
+
+Description
+
+CAPEX
+
+Capital Expenditure
+
+Capital expenditures (CAPEX or capex) are expenditures creating future benefits. A capital expenditure is incurred when a business spends money either to buy fixed assets or to add to the value of an existing fixed asset with a useful life that extends beyond the taxable year.
+
+OPEX
+
+Operating Expense
+
+An operating expense, operating expenditure, operational expense, operational expenditure or OPEX is an ongoing cost for running a product, business, or system.
+
+TCO
+
+Total Cost of Ownership
+
+Total cost of ownership (TCO) is a financial estimate whose purpose is to help consumers and enterprise managers determine direct and indirect costs of a product or system. It is a management accounting concept that can be used in full cost accounting or even ecological economics where it includes social costs.
+
+
+
+Term
+
+Full name
+
+Description
+
+IaaS
+
+Infrastructure as a Service
+
+Infrastructure as a service (IaaS) enables consumers to use processing, storage, network, and various basic computing resources to deploy and execute various software such as operating systems or applications without purchasing hardware devices such as servers and networks. Customers cannot manage or control underlying infrastructure. However, they can control operating systems, storage devices, and deployed applications. Sometimes, they can control specific network elements, such as the host firewall, to a certain extent.
+
+PaaS
+
+Platform as a Service
+
+PaaS is an application hosting and running environment. It is an efficient development platform (development tools and a large number of middleware services) and provides DevOps/NoOps capabilities (O&M automation or O&M outsourcing).
+
+SaaS
+
+Software as a Service
+
+In this model, cloud providers install and operate application software in the cloud and cloud users access the software from cloud clients. The cloud users do not manage the cloud infrastructure and platform on which the application is running. This eliminates the need to install and run the application on the cloud user's own computers simplifying maintenance and support.
+
+ECS
+
+Elastic Cloud Server
+
+An Elastic Cloud Server (ECS) is a computing server that consists of CPUs, memory, images, and Elastic Volume Service (EVS) disks and allows on-demand allocation and elastic scaling.
+
+EVS
+
+Elastic Volume Service
+
+Elastic Volume Service (EVS) disks are a type of virtual block storage devices that use the distributed architecture and can be elastically expanded.
+
+VFW
+
+Virtual Firewall
+
+A network firewall service or appliance running in a virtualized environment to provide the usual packet filtering and monitoring functions like a physical network firewall.
+
+CRM
+
+Customer Relationship Management
+
+An enterprise business strategy, which is used to organize enterprise resources effectively, cultivate customer-centric operational behaviors and implement customer-centric business processes, so as to raise profitability, revenue and customer satisfaction.
+
+
+
+
+IoT
+
+Internet of Things
+
+The Internet of things is the network of physical devices, vehicles, home appliances and other items embedded with electronics, software, sensors, actuators, and network connectivity which enables these objects to connect and exchange data.
+
+RFID
+
+Radio  Frequency Identification
+
+Radio-frequency identification (RFID) is the wireless non-contact use of radio-frequency electromagnetic fields to transfer data, for the purposes of automatically identifying and tracking tags attached to objects. It uses radio frequencies to identify objects and obtain data without manual intervention.
+
+NFV
+
+Network Functions Virtualization
+
+Network Functions Virtualization (NFV) uses IT virtualization technologies to consolidate many network equipment types onto industrial standards, such as servers, switches, and storage, which could be located in data centers, network nodes, and in end user premises.
+
+
+
+
+edge computing
+
+/
+
+Edge computing is pushing the frontier of computing applications, data, and services away from centralized nodes to the logical extremes of a network. It enables analytics and knowledge generation to occur at the source of the data.
+
+
