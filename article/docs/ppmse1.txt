@@ -25,3 +25,9 @@ _____________________________________________________________
 
 Domain-driven design patterns: A metadata-based approach
 DM Le, DH Dang, VH Nguyen - … and Vision for the Future (RIVF …, 2016 - ieeexplore.ieee.org
+
+______________________
+
+https://www.dotnetcurry.com/patterns-practices/1497/deploy-pseudocode-production
+
+____-
