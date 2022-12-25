@@ -1,0 +1,27 @@
+Towards a UML profile for domain-driven design of microservice architectures
+F Rademacher, S Sachweh, A Zündorf - International Conference on …, 2017 - Springer
+
+_____________________________________________________________________________
+
+[PDF] Overview of a domain-driven design approach to build microservice-based applications
+RH Steinegger, P Giessler, B Hippchen… - The Thrid Int. Conf. on …, 2017 - cm.tm.kit.edu
+
+__________________________
+
+[HTML] Supporting large-scale agile development with domain-driven design
+
+Ö Uludağ, M Hauder, M Kleehaus, C Schimpfle… - … Conference on Agile …, 2018 - Springer
+
+_________________
+
+[PDF] Designing microservice-based applications by using a domain-driven design approach
+B Hippchen, P Giessler, R Steinegger… - … Journal on Advances …, 2017 - personales.upv.es
+
+___________________________________________________________________________________________
+
+https://ieeexplore.ieee.org/abstract/document/8354426/authors#authors
+
+_____________________________________________________________
+
+Domain-driven design patterns: A metadata-based approach
+DM Le, DH Dang, VH Nguyen - … and Vision for the Future (RIVF …, 2016 - ieeexplore.ieee.org
