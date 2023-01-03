@@ -5,3 +5,7 @@ _____________________________________________________
 
 
 https://learn.microsoft.com/en-us/azure/architecture/patterns/event-sourcing
+
+________________________________________________________
+
+https://github.com/Amitpnk/Onion-architecture-ASP.NET-Core
