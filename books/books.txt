@@ -9,3 +9,7 @@ https://learn.microsoft.com/en-us/azure/architecture/patterns/event-sourcing
 ________________________________________________________
 
 https://github.com/Amitpnk/Onion-architecture-ASP.NET-Core
+
+
+
+https://www.supplychain247.com/article/what_is_an_oms_and_why_do_i_need_one
