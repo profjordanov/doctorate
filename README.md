@@ -1,5 +1,7 @@
 # Облачна информационна система за управление на поръчките от клиенти в производствено предприятие
 
+## A cloud-based information system for managing customer orders within a manufacturing organization.
+
 ## Изпити
 
 - Езици за програмиране ( РАЗРАБОТКА НА ОНЛАЙН МАГАЗИН ЧРЕЗ ASP.NET CORE MVC,
