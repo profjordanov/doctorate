@@ -1,0 +1,11 @@
+Current
+Abstract – The number of cloud-based systems using Domain-Driven Design has been increasing in recent
+ years. This paper gives a brief overview of domain-driven, cloud-based software development 
+activities and how they fit into a well-known software development process. By giving a model 
+based on theory, it emphasizes several techniques for expressing complex business logic. 
+Sometimes conventional code base architectures are challenged by diversity, which transforms
+ best practices into antipatterns. The significance of the system's availability, reliability, 
+and resilience may prevent the organization from failure and support its growth. 
+Domain-driven design demands that software code establish key principles such as 
+"ubiquitous language" and "bounded contexts". In addition, a successful solution should
+ contain command and query responsibility segregation, event souring patterns, and a comprehensive set of integration tests.
