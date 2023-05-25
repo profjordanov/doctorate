@@ -1,0 +1,204 @@
+DDD Tactical Design Patterns
+
+Strategic patterns
+Decomposition of complex domains
+
+Tactical patterns
+Used for modeling & realization of microservices
+
+Tactical Design Patterns
+Model Driven Design
+
+Model Driven Design provides a framework
+for the realization of Systems modeled using
+the Domain Driven Design approach
+Tactical patterns are the building blocks
+
+
+Model Driven Design => Entities / Value Obj
+
+Domain Objects
+Domain objects a.k.a. Business objects are
+the foundational elements for defining the
+concepts in a domain model
+
+Entity
+An Entity represents a uniquely identifiable
+business object that encapsulates attributes
+and a well-defined domain behavior
+An entity is uniquely identified within a Bounded Context
+
+An entity has a set of attributes
+• Attributes are defined as per the Ubiquitous Language
+
+An entity has a behavior i.e., business logic
+• Entity's state is managed by way of operations
+
+What is Business Logic?
+a.k.a. Domain Logic
+• Business Rules
+• Validations
+• Calculations
+
+Entities are meaningful within a Bounded Context
+Entities are unique within a Bounded Context
+Definition of entity consist of attributes and behavior
+Entities are persisted in long term storage
+
+--
+
+Value Objects
+Value objects unlike Entity objects have no
+conceptual identity in the Bounded Context
+Value object attributes | behavior does not
+map directly to the core concepts in the
+Bounded Context
+
+t keeps the Entity object cleaner | simpler
+
+Value Object Identity
+Does NOT have a unique identity; equality check is based on
+attributes
+
+Not persisted as independent object in a database
+• Persisted as part of Entity Object
+• OR not persisted to the long term storage
+
+objects have a short lifespan;
+
+Value objects are immutable
+• All attributes put together gives a meaning to the Value Object
+• To keep the code simple, create a new instance instead of re-using
+
+V objects have meaning only in the context of an Entity
+
+V objects in one BC may be an Entity in another
+
+Value object does not have a unique identity
+Value object is not persisted in a DB as an independent object
+An Entity in one BC may be a Value Object in another BC & vice
+versa
+
+Both Entities and Value Objects have attributes & behavior
+
+Entity not expose any Business Logic !!
+___
+
+Aggregate
+An Aggregate object is a cluster of entities
+and value objects that are viewed as a
+unified whole from the domain concepts and
+data perspective
+
+ Aggregate Root
+Aggregate with 0 inner objects (children)?
+
+A provides interfaces for operations on Inner objects
+aggregate is inserted | updated atomically
+
+Factory
+A component for building complex domain aggregates
+by combining Business Logic, Domain object relations and Storage Access
+
+Quick Review
+An Aggregate may contain Aggregates | Entities | Value Objects
+Aggregate MUST encapsulate behavior to manage inner objects
+All changes to Aggregates are saved atomically
+Factory pattern is used for creating complex Aggregates
+
+
+Common terms used for describing the domain models
+Martin Fowler coined the term Anemic Models
+
+Anemic Model
+A domain model composed of entities that
+do not exhibit behavior i.e., operations
+applicable to the domain concepts are
+missing
+
+Rich Domain Model is opposite of Anemic
+Domain Model
+
+Rich Model implements the Model Behavior
+Business Logic is implemented as inherent part of the entity
+
+• Data Integrity is maintained
+• Business Logic is one place
+
+"Anemic Models" may be Anti Pattern in some situations but NOT all !!!
+
+Is an Anemic Models always Bad ?
+Not Really, especially in case of simple domain problems
+• No or Light Business Logic; Infrequently changing business logic
+• Generic Data Services e.g., CRUD API
+• Shared logic that does not belong in a single model entity
+
+An Aggregate Object implements the behavior
+______
+
+Repository
+A Repository object acts as a collection of
+Aggregate Objects in memory. It hides the
+storage level details needed for managing &
+querying the state of the Aggregate in the
+underlying data tier.
+
+Repository
+Manage | Query the state of aggregate
+
+Caller of repository has NO knowledge of Data tier
+
+Characteristic of Repository
+#1 Created on per Aggregate basis
+#2 May expose higher level behavior | functions
+#3 Persistence operations are Atomic
+
+Managed as part of the Domain Layer
+
+Persistence operations are Atomic
+The aggregate is inserted | updated | deleted atomically
+
+Repository carries out Insert | Update | Delete as a transaction
+• All changes carried out under a unit of work
+All changes to DB Successful
+No Change to Any Entity in DB
+In case of any DB op Failure
+
+Repository Benefits
+Keeps the Domain model independent of the storage layer
+Storage Model
+Technology
+Infrastructure
+
+Unit testing and Mocking
+
+Repository - Impact on performance
+Large Aggregate may impact performance
+• Object creation may require multiple DB ops
+• Joins across multiple tables
+Leverage caching
+
+Repository - Impact on performance
+Impact on Criteria based Queries
+• Partial result set needed in UI/UX app
+• Data from multiple aggregates
+OK to expose additional queries outside of the Repository
+
+Repository - Managing the mapping complexity
+Complex code is needed for mapping between domain & DB
+Consider using ORM/Frameworks
+
+Quick Review
+Repository Object - Makes domain model independent of DB layer
+- Aggregate operations are Atomic
+- Used for Unit Testing & Mocking
+Performance Concerns - Expose higher level query functions
+- OK to expose Queries outside of Repository
+- Use caching solutions such as Redis/Memcached
+
+Domain Service
+A Domain Object that implements the
+Domain functionality (or concept) that may
+not be modeled (naturally) as a behavior in
+any domain entity or value object
+

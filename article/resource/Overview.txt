@@ -1,0 +1,229 @@
+Current
+Abstract – The number of cloud-based systems using Domain-Driven Design has been increasing in recent
+ years. This paper gives a brief overview of domain-driven, cloud-based software development 
+activities and how they fit into a well-known software development process. By giving a model 
+based on theory, it emphasizes several techniques for expressing complex business logic. 
+Sometimes conventional code base architectures are challenged by diversity, which transforms
+ best practices into antipatterns. The significance of the system's availability, reliability, 
+and resilience may prevent the organization from failure and support its growth. 
+Domain-driven design demands that software code establish key principles such as 
+"ubiquitous language" and "bounded contexts". In addition, a successful solution should
+ contain command and query responsibility segregation, event souring patterns, and a comprehensive set of integration tests.
+______________________________________________________
+
+English Language definition of Domain
+A sphere of knowledge, influence, or activity
+• Multiple Domain Experts needed to support business functions
+
+Business perspective of Domain
+A field | industry in which the business operate
+A business domain is composed of multiple subdomains
+subdomain: Understanding the business requires breaking it into parts
+Each Sub-Domain has a different level of complexity
+Sub-domains are categorized into 3 types based on their complexity & business value
+- Generic
+- Core
+- Supporting
+
+Technology perspective of Domain
+Represents the problem space
+Each domain consists of Sub-Domains
+
+Conceptual Models
+A representation of a system made from
+composition of concepts
+
+Objective of Conceptual Models
+1. Enhance the understanding of the designers
+2. Conveying the ideas to stakeholders
+3. Provide a point of reference to create detailed specifications
+4. Documentation for future reference
+
+----
+Architectural Model a.k.a. architecture
+Structured representation of a solution that
+meets the requirements in the problem space
+• High level abstraction of parts of the end solution
+• Presents a view of how the requirements will be met
+• Assist in answering the questions posed by different stakeholders
+
+Architecture Vs. Design
+Difference is in the level of details & focus
+• Architecture = High Level | Skeleton | Long term focus
+• Design = Relatively detailed | Focus on implementation
+
+Conceptual Model = A set of concepts & their relationships
+Architectural Model = A structured representation of a solution
+Design = A structured representation of a solution that is closer to
+the implementation
+
+----
+
+Software Architecture Styles
+Reusable architectural pattern which may be
+used as a solution to a commonly occurring
+problem
+
+Services Centric Architecture (SOA | REST)
+Focus is on core capabilities exposed as services
+
+WHY do businesses invest in software?
+• To fulfill some need(s) of the business | enterprise
+• To fulfill some need(s) of the Solve some Business Probl ebmus(ins)
+
+Business Problems
+Current or long-term challenges & issues
+faced by the business that may prevent
+the business from achieving its goals.
+To understand the problem, architects MUST understand the domain first !!!
+
+Domain Model
+Organized and structured knowledge of
+the domain that is relevant for solving a
+business problem
+
+Knowledge Crunching
+Teams process the knowledge received from
+the Domain Experts into domain models
+This process is referred to as Knowledge
+Crunching
+
+Aggregate Domain Models
+A domain model that covers all the facets of the domain
+
+Domain Driven Design approach provides
+principles and patterns to address the
+challenges faced with developing
+complex domain models
+
+Strategic 
+Divide a complex & large business problem into smaller chunks with
+well defined boundaries
+(ubiquitous, BC)
+
+Tactical Patterns
+Translate of the conceptual models to software
+application | services design e.g., classes, modules
+
+Domain Driven Design - Microservices
+Domain Driven Design approach leads to
+smaller independent domain models that
+can then be built as highly decoupled,
+independent set of microservices
+
+----
+Context
+The circumstances or facts that form the
+setting for a statement, event or idea
+
+Business Context
+Focus areas for knowledge crunching
+
+In order to understand the business domain one MUST understand
+the business context
+
+------
+
+Business Language
+Each industry | profession has its own lingo
+
+Understanding the domain
+To gain knowledge of the domain one
+MUST understand the language used by
+the domain experts
+
+For building complex systems IT Teams MUST learn multiple Business
+languages used by the Experts in the context of different domains
+
+Ubiquitous Language
+
+Domain Driven Design suggests setting up a
+common language within each business
+context; this language is used by ALL
+stakeholders
+
+Use of UL
+Documentation
+Conversations
+Domain Experts
+Delivery Teams
+App Code
+Testing Code
+
+• UL evolves over a period
+• UL may be managed on any knowledge collaboration platform
+• UL MUST be used in all form of communication & code
+
+Bounded Context
+
+UL helps in identifying overlapping contexts
+Ubiquitous Language helps in breaking the
+business context into smaller parts; in DDD
+these smaller parts are referred to as the
+
+DDD addresses the problems with
+common domain model by breaking the
+domain into independent parts referred to
+as the Bounded Contexts
+
+Characteristics of Bounded Contexts
+1. Each BC represented with its OWN domain model
+2. Domain model built for a BC applicable ONLY within its boundaries
+3. Language used in BC does NOT suffer from Linguistic Challenges
+
+Each Bounded Context has its own
+Ubiquitous Language; that is meaningful
+only within that bounded context
+
+• DDD suggests breaking the problem space into Bounded Contexts
+1. Models developed independently within each BC
+2. Model applicable within the BC
+3. Each BC has a Ubiquitous Language
+
+-----
+Business Transformation
+Business Transformation is an umbrella term
+that is used for referring to fundamental
+changes in how an organization conducts its
+business
+
+Why do businesses transform?
+Environmental changes e.g., new regulations
+Competitive pressure e.g., rapid rollout of new products
+New opportunities e.g., innovative technology
+Customer demands e.g., expects immediate response
+
+Digital Transformation is the process of using
+digital technologies to
+1. meet the needs of transformed business
+processes
+2. create innovative customer engagement
+mechanisms
+
+Digital Transformation supports the Business
+Transformation initiatives
+
+Reimagining of business in the digital age is
+digital transformation
+
+Digital Transformation
+Integrated supply chain inventories across network
+
+Continuous Transformation
+Transformation is not a one-time initiative
+• Businesses need to change on a continuous basis
+• Rapid changes are needed in systems and applications
+• Organizations need to keep up pace with new and evolving technologies
+
+Organizations need to continuously Transform
+Rapid changes to IT systems
+Rapid adoption of new digital technologies
+Speed to market is the key
+Microservices architecture enables transformation
+
+Microservices Architecture is an enabler |
+catalyst for continuous business
+transformation
+Key to rapid transformation => faster speed to market
+IT teams move at the same speed as the business !!
+
