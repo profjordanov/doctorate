@@ -21,3 +21,11 @@ Infrastructure Layer: The infrastructure layer provides technical capabilities a
 Presentation Layer: The presentation layer handles the interaction with external systems or user interfaces. It can be a web API, a user interface (UI), or any other means through which the microservice exposes its functionality to external clients. The presentation layer translates external requests into actions performed by the application layer and returns appropriate responses.
 
 It's important to note that the organization and naming of these layers can vary depending on the specific architectural choices and the technologies used. The key idea in DDD is to focus on the business domain and create a clear separation of concerns between layers, ensuring that the business logic remains decoupled from infrastructure and presentation concerns.
+
+
+
+
+___________________
+
+Entities, value objects, domain events, and aggregates carry the most important part of the application, its business logic. Repositories and factories can keep some of the business logic as well. 
+It is crucial to leave entities and value objects to do only one thing: represent the domain logic in the application. In practice, it means they shouldn't contain any knowledge about how they are preserved or created. These operations must be up to the standards of repositories and factories. They also shouldn't contain any knowledge about the tables and columns in the database where they are stored. This must be given away to database members. All they should know is the domain they represent.
