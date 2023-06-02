@@ -1,0 +1,38 @@
+The Foundation of SAP SD
+
+The material master record is an essential element of the Sales and Distribution module in SAP, capturing data such as minimum shipping quantities, taxability, and pallet quantities. The customer master record is the second most critical object from a sales and distribution perspective, capturing information such as payment terms, pricing options, and various partner functions. In the SAP system, there are four versions of the customer, including the sold-to-party, ship-to-partner, bill-to-partner, and payer function. Each partner function captures a different aspect of the customer, such as the entity to which the business is selling goods and services, the delivery address of the customer, the billing address, and the payer function. SAP has four partner functions, which are different physical addresses and entities altogether.
+
+Pricing in SAP is referred to as conditions and has an incredibly flexible method for managing pricing by allowing you to maintain condition types. Each condition type is a different type of price, such as list price, which is published within the product catalog. Additionally, a Key Combination is used to maintain pricing at various levels, such as a list price for a single material that is different based on which site is shipping the material. SAP offers pricing reports through the transaction V/LD, which allows you to compare and analyze any pricing conditions based on any combination of criteria. It is important to review pricing within the system, such as the material master, customer master, and pricing conditions. Advanced-level concepts such as volume discounts, surcharges, tax, and pricing procedures should be researched to further understand the SD module.
+
+
+
+
+
+A Look at Sales Orders
+
+SAP is a transactional document that has three sections: a header section, an item overview section, and an item details section. There are three standard out-of-the-box order types: standard order, return order type, and debit and credit memos. Standard order is used to sell actual goods to a customer, return order type is used to return inventory from a customer back into our warehouse, and debit and credit memos are document types that do not actually impact or transact inventory. Custom order types can be created by the organization, and inventory is allocated once the sales order is created in the system. The SD module of SAP integrates with the Materials Management module to check if there is inventory available in the quantity on the order, and if so, it will be allocated automatically.
+
+There is also a concept of available to promise (ATP) which deals with the act of checking the available inventory and what inventory will be checked. Standard SAP is going to allocate inventory on a first come, first served basis, meaning the first order that gets created in the system will get first dibs at the available inventory, and if inventory is fully exhausted, the next order that comes into the system will be considered a backorder. To identify existing orders, users can use VA05 and V.14, which are standard list display queries and V.14 will display blocked orders. SAP has various options for blocking an order and retrieving those blocked orders using V.14 or V.15. A past due order is not necessarily a backorder, but rather an order that has not shipped on time.
+
+Understanding the item categories on the sales order line items, pricing analysis functionality within an order, and order acknowledgements are important concepts to understand in order processing. These features can help ensure that orders are processed correctly and accurately.
+
+
+
+
+
+Deliveries and Documents
+
+The delivery document is a transactional document used to manage the logistics side of the order processing. It can be created manually using VL01N or en masse using VL10A. Once created, it will be linked automatically to the originating sales order and the document flow feature in the system will provide for drill-down navigation. SAP allows for the integration of multiple line items on a sales order, resulting in separate delivery documents. Delivery can be processed using VL02N or VL060, depending on the number of deliveries being processed.
+
+Consolidating deliveries into a shipment and using handling units gives an extra layer of tracking and traceability. Additionally, the post goods issue (PGI) of a delivery document can be reversed.
+
+
+
+
+
+Billing and Invoices
+
+
+A billing document is a transaction-level item that creates financial postings related to the sales and distribution of goods and services. It is typically linked to the delivery document, and the sales order provides a means to capture the order received from the customer. There are two methods for creating invoices or billing documents; individually through VF01, and collectively using VF04. VF04 is preferred because it can be scheduled to run automatically, looking for any delivery documents that have been processed in that day and generating a billing document automatically. All of these relationships are visible through the document flow.
+
+Invoices can be consolidated into a monthly statement, which is the document you send to customers. VF05 is the list display query which allows you to search for billing documents by payer, material or organizational structure. To continue your education around the billing functions of the SD module, explore the accounting view of a billing document and the relationship between revenue and cost of goods sold. Finally, use the cash application to apply payment to the billing document, which clears the balance at the accounts receivable GL account. Sales and distribution runs up to the point of the creation of the billing document, while everything beyond the creation of the billing document would fall into the finance module.
