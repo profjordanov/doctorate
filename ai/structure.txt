@@ -38,27 +38,19 @@ Chapter 4: System Architecture
 4.3 Components and Modules
 4.4 Data Security and Privacy Considerations
 
-Chapter 5: Functionality and Features
-5.1 Customer Order Placement
-5.2 Order Processing and Tracking
-5.3 Inventory Management
-5.4 Communication and Collaboration
-5.5 Reporting and Analytics
-
-Chapter 6: Benefits of Cloud-Based Information System
-6.1 Improved Order Visibility and Tracking
-6.2 Enhanced Operational Efficiency
-6.3 Real-Time Data Accessibility
-6.4 Scalability and Flexibility
-6.5 Cost Reduction
-
-
 Chapter 4: System Design and Architecture
 4.1 System Requirements Analysis
 4.2 Cloud Service Models
 4.3 System Architecture Design
 4.4 Database Design and Integration
 4.5 User Interface Design
+
+Chapter 5: Functionality and Features
+5.1 Customer Order Placement
+5.2 Order Processing and Tracking
+5.3 Inventory Management
+5.4 Communication and Collaboration
+5.5 Reporting and Analytics
 
 Chapter 5: System Implementation and Integration
 5.1 Cloud Provider Selection
@@ -67,6 +59,13 @@ Chapter 5: System Implementation and Integration
 5.4 Testing and Quality Assurance
 5.5 Training and User Adoption
 
+Chapter 6: Benefits of Cloud-Based Information System
+6.1 Improved Order Visibility and Tracking
+6.2 Enhanced Operational Efficiency
+6.3 Real-Time Data Accessibility
+6.4 Scalability and Flexibility
+6.5 Cost Reduction
+
 Chapter 6: Evaluation and Impact Analysis
 6.1 Key Performance Indicators (KPIs)
 6.2 System Performance Evaluation
@@ -74,7 +73,6 @@ Chapter 6: Evaluation and Impact Analysis
 6.4 Impact on Order Management Processes
 6.5 Impact on Customer Satisfaction
 6.6 Cost and ROI Analysis
-
 
 Chapter 7: Challenges and Limitations
 7.1 Security and Privacy Concerns
