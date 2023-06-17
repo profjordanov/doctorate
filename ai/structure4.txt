@@ -25,6 +25,38 @@ Existing research on cloud-based ERP and SCM systems, and their impact on custom
 The role of real-time tracking in this context
 Identification of gaps in existing research
 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Chapter 2: ---
+
+2.1. Conceptual Framework of ERP and Supply Chain Management
+2.1.1. Supply Chain Management in Manufacturing 
+2.2.2. ERP
+
+2.2 Role and Impact of Cloud-Based Systems in Manufacturing
+
+2.2 Cloud-Based Customer Order Management Systems
+
+Специфики при управление на поръчките от клиенти в производствено предприятие
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+Title:
+Enhancing Supply Chains in Manufacturing Enterprises through Cloud-Based Customer Order Management Systems
+
+
+Chapter 2: Literature Review
+
+2.1 Supply Chain Management in Manufacturing 
+
+
+2.2 Role of Customer Order Management Systems
+2.3 Advantages of Cloud-Based Systems in SCM
+2.4 Cloud-Based Customer Order Management Systems and ERP
+2.5 Gap in Literature
+
+
+///
 Chapter 3: Methodology
 3.1 Research Design
 3.2 Population and Sample
@@ -39,32 +71,3 @@ Interpretation and discussion of the findings in relation to the research questi
 
 Chapter 6: Conclusion and Recommendations
 Summary of the entire study, restating the problem, the methods used, the findings, and the implications of the findings.
-
-
-
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
-
-Title:
-Enhancing Supply Chains in Manufacturing Enterprises through Cloud-Based Customer Order Management Systems
-
-Abstract:
-(A brief summary of the research questions, methodology, findings, and conclusions.)
-
-Chapter 1: Introduction
-
-1.1 Background of the Study
-1.2 Problem Statement
-1.3 Objectives of the Study
-1.4 Research Questions
-1.5 Significance of the Study
-1.6 Scope and Limitations
-
-Chapter 2: Literature Review
-
-2.1 Supply Chain Management in Manufacturing
-2.2 Role of Customer Order Management Systems
-2.3 Advantages of Cloud-Based Systems in SCM
-2.4 Cloud-Based Customer Order Management Systems and ERP
-2.5 Gap in Literature
-
