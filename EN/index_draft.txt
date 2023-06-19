@@ -6,12 +6,12 @@ I. Opportunities and challenges in the provision of information when managing cu
 
 1.1. Conceptual Framework of ERP and Supply Chain Management
 1.1.1. Specifics of order and supply chain management in a manufacturing company
-1.2.2. Characteristics and fundamentals of manufacturing enterprise resource planning systems
+1.1.2. Characteristics and fundamentals of enterprise resource planning systems
 
-1.2. Opportunities for management process digitization using cloud technologies
+1.2. Opportunities and challenges for management process digitization using cloud technologies
 1.2.1. Characteristics of cloud-based systems
-1.2.2. Tackle business complexity with domain-driven design
+1.2.2. Using domain-driven design to tackle business complexity
 
-1.3. Specifics when managing customer orders in a manufacturing
-1.3.1. Cybersecurity and data protection
-1.3.2. Challenges manufacturing organizations face in managing customer orders
+1.3. Opportunities and challenges in Managing Customer Orders in a manufacturing company
+1.3.1. Cybersecurity and data protection issues
+1.3.2. Specific challenges manufacturing organizations face
