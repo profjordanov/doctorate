@@ -33,10 +33,12 @@ Chapter 2: ---
 2.2.2. ERP
 
 2.2 Role and Impact of Cloud-Based Systems in Manufacturing
-
-2.2 Cloud-Based Customer Order Management Systems
+2.3 Advantages of Cloud-Based Systems
 
 Специфики при управление на поръчките от клиенти в производствено предприятие
+2.2 Cloud-Based Customer Order Management Systems
+Importance of customer order management in manufacturing organizations
+The role of real-time tracking in this context
 
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
