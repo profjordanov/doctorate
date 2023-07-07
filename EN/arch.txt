@@ -19,3 +19,13 @@ In this way, the design and development of the system architecture serve as an a
 ---
 
 Yes, the development and analysis of the system architecture can be viewed as a continuation of empirical research into the improvement of supply chains in a manufacturing enterprise through the use of a cloud-based customer order management system. This phase would translate the initial research's findings into a practical, implementable solution.This would require multiple steps:On the basis of the research's empirical findings, an architecture for the cloud-based customer order management system will be created. This architecture will consider the research-identified opportunities and challenges, as well as the research-identified specific needs of manufacturing companies.Domain-Driven Design: The architecture will utilize domain-driven design principles to govern the complexity of the involved business processes. This requires the development of a domain model that reflects the activities and norms of the business and the design of software based on this model.Integration with ERP and SCM: The system architecture will be designed for effective integration with the organization's existing or planned ERP and SCM systems. This is essential for seamless operations and efficient data transmission between various organizational divisions.Security Considerations: The architecture will incorporate robust security measures to safeguard sensitive customer and order data based on the cybersecurity and data protection insights garnered.Once the architecture has been developed, it will be evaluated and tested for effectiveness, efficiency, and security. This can be accomplished using techniques such as simulation, prototyping, and pilot implementation.Feedback and Iteration: The architecture can be refined and enhanced based on the testing and evaluation results. This procedure may require multiple iterations to produce an optimal design.In this way, the design and development of the system architecture serve as an application portion of the research, bringing the empirical findings into practice and yielding a tangible result of the study. This phase also presents new opportunities for research, such as the study of the implementation process, the user experience, and the impact of the system on the supply chain operations of a manufacturing enterprise.
+
+
+
+---
+SRC:
+
+1) https://heidelbergmaterials.udemy.com/course/azure-well-architected-framework/learn/lecture/37381558?start=15#overview
+
+2)
+
