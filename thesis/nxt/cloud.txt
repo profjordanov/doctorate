@@ -14,6 +14,9 @@ Measured Service: Cloud computing systems automatically control and optimize res
 
 In essence, these characteristics define what makes cloud computing a unique and transformative technology model, enabling businesses to be more agile, cost-efficient, and scalable.
 
+## tnz
+services provided over the internet which allow users to leverage computational resources without having to own or maintain them are typically described as cloud services. Cloud services are delivered by cloud providers on an on-demand basis and are often priced based on usage, allowing businesses and individuals to scale and adapt their computing needs dynamically.
+
 
 # Cloud services can be categorized based on the kind of service they offer.
 
@@ -151,6 +154,8 @@ There are ~ 60 Azure Regions (more than any other cloud)
 •
 Almost every new resource in the cloud should be allocated to a
 region
+
+https://azure.microsoft.com/en-us/explore/global-infrastructure/geographies/
 
 
 
