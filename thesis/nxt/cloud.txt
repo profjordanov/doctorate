@@ -161,6 +161,12 @@ https://azure.microsoft.com/en-us/explore/global-infrastructure/geographies/
 
 https://learn.microsoft.com/en-us/azure/architecture/icons/
 
+# Cloud services used
+App service WebJob Static web apps Log analytics
+Load Balancer App GW + WAF VM Scale Set Event Hubs
+Function app Cosmos DB Storage Account Azure SQL
+Azure MySQL Cognitive Services Notification Hub Azure AD
+
 
 
 
