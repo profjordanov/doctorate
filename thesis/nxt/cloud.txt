@@ -91,12 +91,17 @@ Features: All hardware, software, and supporting infrastructure are owned and ma
 Access: Users access these services and manage their accounts using web browsers.
 Examples: Amazon Web Services (AWS), Google Cloud Platform (GCP), Microsoft Azure.
 Usage: Ideal for a wide variety of workloads, including those that are transient or experimental in nature.
+
+- aws , google cloud, azure, ibm cloud
+
 Private Cloud:
 
 Definition: Private clouds are exclusively used by a single business or organization. The cloud infrastructure can be hosted either on-premises or at a third-party data center.
 Features: Provides more control over the environment, especially in terms of privacy, security, and compliance.
 Access: Resources are used exclusively by a single organization, which might give it access to more customization options.
 Usage: Ideal for businesses with mission-critical operations or specific data privacy, security, or regulatory requirements.
+VMware cloud, red hat openshift, azure stack
+
 Hybrid Cloud:
 
 Definition: Hybrid clouds combine public and private clouds, allowing data and applications to be shared between them. They offer more flexibility and optimization of existing infrastructure, security, and compliance.
@@ -104,4 +109,23 @@ Features: Provides businesses greater flexibility by moving workloads between cl
 Access: Depends on the specific configuration and the nature of the connected clouds.
 Usage: Ideal for businesses that want to secure critical operations while leveraging the agility of the public cloud. It's also used to handle workload bursts, where an application might run in the private cloud but burst to the public cloud during peak times.
 Each of these cloud models offers distinct advantages and can be chosen based on the specific needs and objectives of an organization. They cater to different requirements related to control, cost, scalability, and compliance.
+
+- azure arch, aws outpost
+
+
+# Cloud Providers Growth
+Cloud
+% Growth
+AWS
+29%
+Azure
+47%
+Google
+43%
+
+Q2 2020:
+
+Azure is the fastest
+growing public cloud,
+for years
 
