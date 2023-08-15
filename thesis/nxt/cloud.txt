@@ -1,0 +1,18 @@
+# the fundamental characteristics of cloud computing
+
+as defined by the National Institute of Standards and Technology (NIST). Here's a brief explanation of each characteristic:
+
+On-Demand Self-Service: This characteristic means that cloud users can provision computing resources anytime they want without requiring human interaction from the service provider's side. In simpler terms, you can get the resources (like storage, virtual machines, etc.) you need, when you need them, and manage them on your own, usually through a web portal or API.
+
+Broad Network Access: Cloud services are available over the network and can be accessed through standard mechanisms by both thin or thick client platforms (e.g., mobile phones, laptops, and PDAs). This ensures that the services are available from anywhere, anytime, provided you have an internet connection.
+
+Resource Pooling: In the cloud, multiple customers often share the same infrastructure and resources, thanks to the multi-tenant model. The resources (like storage, processing power, memory, etc.) are pooled to serve multiple consumers using multi-tenant models, with physical and virtual resources dynamically assigned and reassigned based on consumer demand.
+
+Rapid Elasticity: Cloud resources can be elastically provisioned and released. In layman terms, this means that you can scale up or down as your workload demands. For instance, if your application suddenly experiences a surge in traffic, cloud resources can be quickly expanded to meet the demand, and once the demand drops, the resources can be scaled back.
+
+Measured Service: Cloud computing systems automatically control and optimize resources by leveraging a metering capability. This means that you pay for what you use. Resources are measured at some level of granularity (like storage, processing, bandwidth, etc.) and you get billed according to your consumption. This provides transparency both to the provider and consumer of the utilized service.
+
+In essence, these characteristics define what makes cloud computing a unique and transformative technology model, enabling businesses to be more agile, cost-efficient, and scalable.
+
+
+# 
