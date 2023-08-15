@@ -129,3 +129,29 @@ Azure is the fastest
 growing public cloud,
 for years
 
++------------------+-----------------------------+-----------------------------+-----------------------------+
+|                  |           Azure             |             AWS             |        Google Cloud         |
++------------------+-----------------------------+-----------------------------+-----------------------------+
+| **Major Clients**|      Walgreens Boots        |        Netflix              |           Snap Inc.         |
+|                  |        HP                   |        Samsung              |           Spotify           |
+|                  |      Johnson Controls       |        General Electric     |          HSBC               |
+|                  |      ASOS                   |        NASA                 |          PayPal             |
+|                  |      BMW                    |        Shell                |          20th Century Fox   |
+|                  |                             |        Airbnb               |          Target Corp.       |
++------------------+-----------------------------+-----------------------------+-----------------------------+
+
+
+# Regions
+•
+Microsoft built a lot of datacenters for Azure
+•
+Each datacenters ’ location is called Region
+•
+There are ~ 60 Azure Regions (more than any other cloud)
+•
+Almost every new resource in the cloud should be allocated to a
+region
+
+
+
+
