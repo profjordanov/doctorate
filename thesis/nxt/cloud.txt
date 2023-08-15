@@ -157,6 +157,10 @@ region
 
 https://azure.microsoft.com/en-us/explore/global-infrastructure/geographies/
 
+# icons
+
+https://learn.microsoft.com/en-us/azure/architecture/icons/
+
 
 
 
