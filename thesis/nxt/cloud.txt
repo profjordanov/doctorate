@@ -15,4 +15,33 @@ Measured Service: Cloud computing systems automatically control and optimize res
 In essence, these characteristics define what makes cloud computing a unique and transformative technology model, enabling businesses to be more agile, cost-efficient, and scalable.
 
 
-# 
+# Cloud services can be categorized based on the kind of service they offer.
+
+The three primary types of cloud services are Infrastructure as a Service (IaaS), Platform as a Service (PaaS), and Software as a Service (SaaS). Here's a brief description of each:
+
+Infrastructure as a Service (IaaS):
+
+Definition: IaaS provides virtualized computing resources over the internet. It offers basic infrastructure services that users can rent.
+Components: This includes virtual machines, storage (like block and file storage), and networking functionalities.
+Usage: Suitable for businesses that want to build applications from scratch and need control over almost all the elements but don't want to invest in physical hardware.
+Examples: Amazon Web Services (AWS) Elastic Compute Cloud (EC2), Google Compute Engine (GCE), Microsoft Azure Virtual Machines.
+Platform as a Service (PaaS):
+
+Definition: PaaS provides a platform allowing customers to develop, run, and manage applications without dealing with the complexity of building and maintaining the underlying infrastructure.
+Components: Typically includes development tools, operating systems, databases, middleware, and runtime environments.
+Usage: Suitable for developers who want to build web or mobile apps without dealing with the underlying infrastructure.
+Examples: Google App Engine, AWS Elastic Beanstalk, Microsoft Azure App Service, Heroku.
+Software as a Service (SaaS):
+
+Definition: SaaS delivers software applications over the internet, eliminating the need for end-users to install, manage, or maintain the software locally.
+Components: The software application itself along with databases, cloud infrastructure, and more.
+Usage: Suitable for businesses that want to use software without worrying about the underlying infrastructure or maintenance. They are generally accessed through web browsers.
+Examples: Gmail, Microsoft Office 365, Dropbox, Salesforce.
+These services can be visualized as a stack:
+
+IaaS is at the base, providing the raw resources.
+PaaS is in the middle, offering the tools and environment needed to develop and host applications.
+SaaS is at the top, offering fully-managed applications to end-users.
+The choice between these services depends on the specific needs, technical expertise, and goals of an organization or individual.
+
+https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/strategy/monitoring-strategy
