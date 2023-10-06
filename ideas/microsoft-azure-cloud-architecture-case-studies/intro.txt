@@ -21,6 +21,12 @@ Community:
 
 5) Technology Stack / Evolving? Java Next versions planned until 2021 - .NET core Roadmap announced until 2023 
 
+5) https://www.statista.com/statistics/1273806/microservice-developers-programming-language/
+
+https://www.dynatrace.com/news/blog/kubernetes-in-the-wild-2023/
+
+Microsoft Intros Native AOT for ASP.NET Core
+
 6) https://heidelbergmaterials.udemy.com/course/microsoft-azure-advanced-services/learn/lecture/26811910#overview
 
 7) https://en.wikipedia.org/wiki/CloudBolt
