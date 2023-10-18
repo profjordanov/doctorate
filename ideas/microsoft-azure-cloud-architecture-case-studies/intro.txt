@@ -20,6 +20,7 @@ Community:
 4) https://www.tiobe.com/tiobe-index/
 
 5) Technology Stack / Evolving? Java Next versions planned until 2021 - .NET core Roadmap announced until 2023 
+https://dotnet.microsoft.com/en-us/platform/support/policy/dotnet-core
 
 5) https://www.statista.com/statistics/1273806/microservice-developers-programming-language/
 
