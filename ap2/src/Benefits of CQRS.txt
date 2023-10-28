@@ -1,0 +1,49 @@
+Benefits of CQRS
+
+Scalability
+When we separate Read and Write databases, we can also
+scale these separate databases independently. Read
+databases follows denormalized data to perform complex join
+queries
+If application is read incentive application , we can scale read
+database more then write database.
+Query Performance
+The read database includes denormalized data that reduce to
+comlex and long running join queries. C omplex business
+logic goes into the write database. I mproves application
+performance for all aspects.
+Maintability and Flexibility
+F lexibility of system that is better evolve over time and not
+affected to update commands and schema changes by
+separating read and write concerns into different databases.
+Better implemented if we physically separate the read and
+write databases
+
+Drawbacks of CQRS
+Complexity
+CQRS makes your system more complex design.
+S trategically choose where we use and how we can separate
+read and write database
+Eventual Consistency
+T he read data may be stay old and not updated for a
+particular time. So the client could see old data even write
+database updated, it will take some time to update read data
+due to publish/subscribe mechanism.
+We should
+embrace the Eventual Consistency when using
+CQRS , if your application required strong consistency than
+CQRS is not good to apply
+
+Best Practices for CQRS
+Best practices to separate read and write database with 2
+database physically
+Read intensive that means reading more than writing can
+define custom data schema to optimized for queries .
+Materialized View Pattern is good example to implement
+reading databases.
+Avoid complex joins and mappings with pre defined fine
+grained data for query operations .
+Use different database for reading and writing database
+types
+Using No SQL document database for reading and using
+R elational database for CRUD operations.
