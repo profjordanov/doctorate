@@ -1,0 +1,71 @@
+The presented schema diagram encompasses four primary database tables: `mt_streams`, `mt_doc_order`, `mt_events`, and `mt_event_progression`. An elucidation of their purposes, structures, and relationships is provided as follows:
+
+1. **mt_streams**:
+   - **id (UUID)**: A universally unique identifier that likely represents the primary key for each stream.
+   - **type (varchar)**: Specifies the type of the stream, which could be a category or classification.
+   - **version (integer)**: Denotes the version number of the stream. This is pertinent in systems that require version control.
+   - **timestamp (timestamp with time zone)** and **created (timestamp with time zone)**: Capture the exact moment when the record was either created or last updated.
+   - **snapshot (jsonb)** and **snapshot_version (integer)**: Represents a state capture of the stream at a certain version, enabling faster data retrieval without replaying all events.
+   - **tenant_id (varchar)**: Likely signifies a unique identifier for multitenancy, allowing multiple tenants or users to co-exist in the same application without interfering with each other.
+
+2. **mt_doc_order**:
+   - **id (UUID)**: Represents the primary key for each document order.
+   - **data (jsonb)**: Contains structured data associated with the order, possibly details or attributes of the order.
+   - **mt_last_modified (timestamp with time zone)**: Captures the time of the most recent modification to the document order.
+   - **mt_version (UUID)**: Possibly related to the versioning system, indicating the version of the document order.
+   - **mt_dotnet_type (varchar)**: Indicates the .NET type of the document, suggesting that the system might be developed using the .NET framework.
+
+3. **mt_events**:
+   - **seq_id (bigint)**: A sequential identifier, potentially representing the order in which events occur.
+   - **id (UUID)**: Unique identifier for each event.
+   - **stream_id (UUID)**: Connects events to their corresponding stream, establishing a foreign key relationship with the `mt_streams` table.
+   - **version (integer)**, **data (jsonb)**, **type (varchar[500])**: Capture the version, data payload, and type of each event.
+   - **timestamp (timestamp with time zone)**: Specifies when the event was recorded.
+   - **tenant_id (varchar)** and **mt_dotnet_type (varchar)**: Similar to their counterparts in the `mt_streams` and `mt_doc_order` tables.
+
+4. **mt_event_progression**:
+   - **name (varchar)**: Specifies the name or description of the event progression.
+   - **last_seq_id (bigint)**: Indicates the last known sequence ID in the progression, which can be useful for event sourcing systems to understand the state of the progression.
+
+The `stream_id` from the `mt_streams` table forms a relationship with the `stream_id` in the `mt_events` table, as illustrated by the arrow. This association ensures that each event is tied to a specific stream.
+
+In conclusion, the schema appears to be designed for an event-driven or event-sourcing architecture, especially in the context of a cloud-based order management system. 
+The presence of multitenancy attributes and versioning details suggest sophisticated features designed for scalability and robustness in a distributed environment. The adoption of JSONB data types indicates flexibility in data storage, catering to the ever-evolving requirements of modern cloud-based systems.
+
+
+
+Event Sourcing is an architectural pattern that ensures every change to the state of an application is captured in an event object. This pattern can be invaluable for systems where there is a need for an accurate history of events. Below is an elaboration on the key facts presented:
+
+1. **Historical Events**: At its core, event sourcing revolves around persisting the sequence of events that depict the state changes of an application or system. Each event, thus, represents an occurrence or an action that has taken place in the past.
+
+2. **Ubiquitous Language Representation**: The events in this pattern serve as expressions of a ubiquitous language. Ubiquitous language is a term coined in Domain-Driven Design, implying a shared language between developers and domain experts. Events, in this context, serve as the medium through which this shared understanding is articulated.
+
+3. **Non-Imperative Naming Convention**: Unlike traditional CRUD-based systems, events in this system are named using past tense verbs. This indicates the completion of the action and ensures that events are perceived as facts that have already occurred. Therefore, they are non-imperative and cannot be contested or modified.
+
+4. **Persistent Storage**: For event sourcing to be effective, there must be a persistent store for these events. This ensures that there is an immutable log of all the events, which can be replayed to derive the current state of an entity.
+
+5. **Immutable Nature of Events**: Once an event is stored, it cannot be altered or deleted. This append-only nature of the storage ensures the immutability of events, offering a reliable audit trail and history.
+
+6. **State Reconstruction**: The pattern provides a mechanism to replay events to reach the last known state of an entity. By replaying events from the inception or from a certain snapshot (which is an optimized state representation at a point in time), the state of any entity can be reconstructed. This feature proves beneficial in scenarios such as debugging, system migration, and event replay for new subscribers.
+
+In conclusion, Event Sourcing offers a paradigm shift from the traditional state-centric persistence mechanisms. It emphasizes the importance of capturing every state transition as a series of immutable events, providing a reliable audit trail, and enabling various system capabilities like state reconstruction and temporal querying. Integrating this pattern can be pivotal for applications that require comprehensive historical insights and robust state management capabilities.
+
+
+
+
+This slide illustrates the structure and process of the "CREATE Operations" within an event-sourced system. When there is a request to create an order, a new record is appended to the event store. The process can be understood in a series of steps:
+
+1. **Order Request**: Initiates with the system receiving an order request, represented by an envelope icon. This request could come from various channels, such as a web interface, an API call, or even a manual entry.
+  
+2. **Append Operation**: The system then appends a new record to the event store. This action ensures that the data is immutable and that no previous records are altered.
+
+3. **Information Structure**: Each record in the event store comprises the following components:
+   - **Global event ID**: A unique identifier for each event.
+   - **Code for the operation**: Represents the nature of the event. In this context, it would typically indicate a creation operation.
+   - **Timestamp**: The precise moment when the event occurred.
+   - **Entity identifier**: This would often be the unique identifier of the order or the relevant entity within the system.
+   - **Full details**: All relevant data associated with the order.
+
+4. **Transparent Storage**: The bottom of the slide indicates the versatility of the underlying storage mechanisms. Event-sourced systems can store their data in various databases, including relational databases, NoSQL databases, and graph databases.
+
+In the context of an order management system, particularly one that resides in the cloud and is part of the supply chain, utilizing event sourcing can offer various benefits. For instance, it allows for a complete history of changes, enhances system resilience by reducing the chances of data corruption, and facilitates temporal queries to understand the state of an order at any given point in time. The depicted approach emphasizes immutability, auditability, and a clear record of operations, which are fundamental principles in event sourcing.
