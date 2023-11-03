@@ -19,6 +19,23 @@ separating read and write concerns into different databases.
 Better implemented if we physically separate the read and
 write databases
 
+
+
+6.	Discussion
+After the presentation of the findings from the case study, the following chapter will consolidate the observations to draw a complete picture of the implementaion of DDD.
+6.1. Implications and Recommendations
+The study is among the first to develop an in-depth understanding of how the adoption of DDD influences the cloud-native Azure and .NET services. As outlined, previous studies have provided initial indications for potential implications. Motivated by this and the growing popularity of the modern software design, this study has set out to explore the DDD concepts and to embed them into Microsoft ecosystem. It also draws on extant theory and incorporates implications into a theoretically deduced framework.
+6.2. Challenges and Limitations
+Discussing the challenges encountered and what lessons can be drawn for future DDD implementations.
+7.	Conclusion and Future Work
+Summary of Findings
+Recap the key findings of this empirical study.
+
+
+
+
+
+
 Drawbacks of CQRS
 Complexity
 CQRS makes your system more complex design.
@@ -33,6 +50,8 @@ We should
 embrace the Eventual Consistency when using
 CQRS , if your application required strong consistency than
 CQRS is not good to apply
+
+
 
 Best Practices for CQRS
 Best practices to separate read and write database with 2
