@@ -30,6 +30,12 @@ Sulova, S. (2023). A conceptual framework for the Technological Advancement of E
 
 ----
 
+Стоев, С. Приложение на дизайн чрез шаблони при изграждане на информационни системи. Известия на Съюза на учените - Варна. Сер. Икономически науки, Варна : Съюза на учените - Варна, 7, 2018, 2, 275 - 282.
+
+______
+
+
+
 Sulova, Snezhana. (2021). Big data processing in the logistics industry. 7. 6-19. 
 
 ______
@@ -39,4 +45,46 @@ Kuyumdzhiev, I., & Nacheva, R. (2020). Correlation between storage device and ba
 Куюмджиев, Иван Огнянов Методологически и технологични аспекти при архивирането на бази от данни, Унив. изд. Наука и икономика, 2019, 178 с. - (Библ. Проф. Цани Калянджиев ; Кн. 55), ISBN 978-954-21-0988-4.
 
 --------------
+
+Парушева, С. Приложимост и проблеми на облачните услуги в банковия сектор. // Информационните технологии - стратегически приоритет в икономиката на знанието : Междунар. науч. конф. : Посвещава се на 45-год. от създаването на кат. "Бизнес информатика", 14 - 15 окт. 2011 г. / Орг. к-т Румен Върбанов и др. - Свищов : Акад. изд. Ценов, 2011, с. 180 - 187.
+
+---------
+
+Bankov, B. Software solutions for responsive and accessible web systems. Научен семинар „Дигитализация, големи данни, изкуствен интелект“, Варна: Наука и икономика, 2023, 39-43., ISBN(онлайн) 978-954-21-1145-0 / Линк
+
+_________
+
+
+Сълова, С., Тодоранова, Л., Лазарова, Н., Банков, Б. Интернет технологии : [Учебник за студентите от ИУ - Варна]. Варна : Наука и икономика, 2018, 242.
+
+_______________________
+
+
+Todoranova, Latinka & Penchev, Bonimir. (2020). A Conceptual Framework for Mobile Learning Development in Higher Education. 251-257. 10.1145/3407982.3407996. 
+
+_______________________
+
+Nacheva, R., Sulova, S., & Penchev, B. (2022). Where security meets accessibility: Mobile Research Ecosystem. In Springer eBooks (pp. 216–231). https://doi.org/10.1007/978-3-031-04238-6_17
+
+_______
+
+Начева, Р. Концептуален функционален модел на прототип на система за оценяване на достъпността на мобилни приложения. Човешки ресурси & Технологии = HR & Technologies, Варна : Сдружение Креативно пространство, 2023, 1, 76-98., ISSN(онлайн) 2738-8719 / Линк
+
+----
+
+Aleksandrova, Y. (2021). Predictive analytics implementation in the logistic industry. RePEc: Research Papers in Economics. https://econpapers.repec.org/RePEc:kab:journl:y:2021:i:2:p:6-22
+
+_______________________________
+
+Sulova, S., Aleksandrova, Y., Stoyanova, M., Radev, M. A Predictive Analytics Framework Using Machine Learning for the Logistics Industry. CompSysTech'22 : 23rd International Conference on Computer Systems and Technologies, 17-18 June 2022, University of Ruse, Bulgaria, New York : Association for Computing Machinery, 2022, 39-44., ISBN(онлайн) 978-145039644-8 / DOI 10.1145/3546118.3546130 / Scopus
+
+-----
+
+Sulova, Snezhana & Petrov, Pavel & Radev, Mihail & Aleksandrova, Yanka & Mileva, Liliya & Yankov, Plamen. (2020). Дигитализация на бизнес процеси в строителството и логистиката. 
+
+_______________________________
+
+Radev, Mihail & Aleksandrova, Yanka. (2013). Combining Virtualization Technologies in SOA-applications. 
+
+_________________________________________________________________________
 
