@@ -88,3 +88,7 @@ Radev, Mihail & Aleksandrova, Yanka. (2013). Combining Virtualization Technologi
 
 _________________________________________________________________________
 
+Parusheva, S., & Pencheva, D. (2021). Modeling a Business Intelligent System for Managing Orders to Supplier in the Retail Chain with Unified Model Language. In Lecture notes in networks and systems (pp. 375–393). https://doi.org/10.1007/978-981-16-2275-5_23
+
+_________________________________________________________________________
+
