@@ -26,3 +26,17 @@ Sulov, Vladimir. (2014). Приложение на езиците за прог�
 
 -----
 
+Sulova, S. (2023). A conceptual framework for the Technological Advancement of E-Commerce Applications. Businesses, 3(1), 220–230. https://doi.org/10.3390/businesses3010015
+
+----
+
+Sulova, Snezhana. (2021). Big data processing in the logistics industry. 7. 6-19. 
+
+______
+
+Kuyumdzhiev, I., & Nacheva, R. (2020). Correlation between storage device and backup and restore efficiency in MS SQL server. Serdica Journal of Computing, 13(3–4), 139–154. https://doi.org/10.55630/sjc.2019.13.139-154
+
+Куюмджиев, Иван Огнянов Методологически и технологични аспекти при архивирането на бази от данни, Унив. изд. Наука и икономика, 2019, 178 с. - (Библ. Проф. Цани Калянджиев ; Кн. 55), ISBN 978-954-21-0988-4.
+
+--------------
+
