@@ -5,3 +5,24 @@ Vasilev, J. (2015). PROVIDING LOGISTICS INFORMATION BY WEB SERVICES. DOAJ (DOAJ:
 
 Vasilev, J., & Cristescu, M. P. (2019). Approaches for information sharing from manufacturing logistics with downstream supply chain partners. Conferences of the Department Informatics, 1, 24–29. https://ideas.repec.org/a/vrn/katinf/y2019i1p24-29.html
 
+---
+
+Aleksandrova, Y. (2017). Developing business intelligence system in a building and construction company. JOURNAL OF THE UNION OF SCIENTISTS - VARNA, ECONOMIC SCIENCES SERIES, 2, 217–224. https://ideas.repec.org/a/vra/journl/y2017i2p217-224.html
+
+---
+Pavel Petrov & Snezhana Sulova & Mihail Radev & Yanka Aleksandrova & Miglena Stoyanova & Liliya Mileva & Plamen Yankov, 2020. "Digitalization of business processes in construction and logistics," Monographic library "Knowledge and business" Varna, Publishing house "Knowledge and business" Varna, number 8, April.
+
+---
+
+Yanka Aleksandrova, 2020. "Analytical customer relationship management system architecture," Monographic library "Knowledge and business" Varna, Publishing house "Knowledge and business" Varna, number 10, April.
+
+-----
+
+Vladimir Sulov, 2014. "Implementation of Programming Languages on the Platform .NET at Developing Software Applications," Izvestiya, Varna University of Economics, issue 1, pages 13-22.
+
+-------
+
+Sulov, Vladimir. (2014). Приложение на езиците за програмиране на платформата .NET при разработката на софтуерни приложения. Известия.
+
+-----
+
