@@ -47,7 +47,7 @@ Stonis, M. (2024). Enterprise application patterns using .NET MAUI. Microsoft.
 
 ------------
 
-Rendle, M., & Steiner, M. (2024.). gRPC for WCF developers. Microsoft.
+Rendle, M., & Steiner, M. (2024). gRPC for WCF developers. Microsoft.
 
 
 
