@@ -1,106 +1,62 @@
-1) Vasilev, J., & Stoyanova, M. (2019). Information sharing with upstream partners of supply chains. In Proceedings of the 19th International Multidisciplinary Scientific GeoConference SGEM 2019, Geoinformatics and Remote Sensing (Vol. 19, Informatics, Issue 2.1, pp. 329-336). Sofia: STEF92 Technology Ltd. ISBN 978-619-7408-76-8. ISSN 1314-2704.
+Vasilev, J., & Stoyanova, M. (2019). Information sharing with upstream partners of supply chains. In Proceedings of the 19th International Multidisciplinary Scientific GeoConference SGEM 2019, Geoinformatics and Remote Sensing (Vol. 19, Informatics, Issue 2.1, pp. 329-336). Sofia: STEF92 Technology Ltd. ISBN 978-619-7408-76-8. ISSN 1314-2704.
 
-2) Милушева, П. Н., & Miluševa, P. N. (2023). Проблеми при управление на логистиката в строителството: Том [7] (стр. 153 с.). Ико-консулт.
+Милушева, П. Н., (2023). Проблеми при управление на логистиката в строителството: Том [7] (стр. 153 с.). Ико-консулт.
 
-
-
-
-
-.....
-
-2023
-----
-Vasilev, J. (2015). PROVIDING LOGISTICS INFORMATION BY WEB SERVICES. DOAJ (DOAJ: Directory of Open Access Journals). https://doaj.org/article/9630ec2f29494d9f8154269309baba3b
-
-
---
-
-Vasilev, J., & Cristescu, M. P. (2019). Approaches for information sharing from manufacturing logistics with downstream supply chain partners. Conferences of the Department Informatics, 1, 24–29. https://ideas.repec.org/a/vrn/katinf/y2019i1p24-29.html
-
----
-
-Aleksandrova, Y. (2017). Developing business intelligence system in a building and construction company. JOURNAL OF THE UNION OF SCIENTISTS - VARNA, ECONOMIC SCIENCES SERIES, 2, 217–224. https://ideas.repec.org/a/vra/journl/y2017i2p217-224.html
-
----
 Pavel Petrov & Snezhana Sulova & Mihail Radev & Yanka Aleksandrova & Miglena Stoyanova & Liliya Mileva & Plamen Yankov, 2020. "Digitalization of business processes in construction and logistics," Monographic library "Knowledge and business" Varna, Publishing house "Knowledge and business" Varna, number 8, April.
-
----
 
 Yanka Aleksandrova, 2020. "Analytical customer relationship management system architecture," Monographic library "Knowledge and business" Varna, Publishing house "Knowledge and business" Varna, number 10, April.
 
 -----
 
-Vladimir Sulov, 2014. "Implementation of Programming Languages on the Platform .NET at Developing Software Applications," Izvestiya, Varna University of Economics, issue 1, pages 13-22.
+Sulov, V. Render Modes of .NET Blazor Technology. Journal of Informatics and Innovative Technologies = Информатика и иновативни технологии, Пловдив : Институт по информатика и иновативни технологии, Год. 6 = Yr. 6, 2024, 1, 9-12., ISSN(печатно) 2682-9517, ISSN(онлайн) 2683-0930
 
--------
-
-Sulov, Vladimir. (2014). Приложение на езиците за програмиране на платформата .NET при разработката на софтуерни приложения. Известия.
+Сълов, В. Приложение на проектите на платформата .NET при разработка на уеб приложения. Известия. Сп. Икономически университет - Варна, Варна : Наука и икономика, 66, 2022, 4, 362-375., ISSN(печатно) 1310-0343, ISSN(онлайн) 2367-6949
 
 -----
 
+Сълова, С., Банков, Б., Стоянова, М. Уеб технологии. Варна : Наука и икономика, 2024, 222., ISBN(печатно) 978-954-21-1169-6
+
 Sulova, S. (2023). A conceptual framework for the Technological Advancement of E-Commerce Applications. Businesses, 3(1), 220–230. https://doi.org/10.3390/businesses3010015
 
-----
+Nacheva, R., Sulova, S., & Penchev, B. (2022). Where security meets accessibility: Mobile Research Ecosystem. In Springer eBooks (pp. 216–231). https://doi.org/10.1007/978-3-031-04238-6_17
 
-Стоев, С. Приложение на дизайн чрез шаблони при изграждане на информационни системи. Известия на Съюза на учените - Варна. Сер. Икономически науки, Варна : Съюза на учените - Варна, 7, 2018, 2, 275 - 282.
-
-______
-
-
+Sulova, S., Aleksandrova, Y., Stoyanova, M., Radev, M. A Predictive Analytics Framework Using Machine Learning for the Logistics Industry. CompSysTech'22 : 23rd International Conference on Computer Systems and Technologies, 17-18 June 2022, University of Ruse, Bulgaria, New York : Association for Computing Machinery, 2022, 39-44., ISBN(онлайн) 978-145039644-8 / DOI 10.1145/3546118.3546130 / Scopus
 
 Sulova, Snezhana. (2021). Big data processing in the logistics industry. 7. 6-19. 
 
-______
+Sulova, Snezhana & Petrov, Pavel & Radev, Mihail & Aleksandrova, Yanka & Mileva, Liliya & Yankov, Plamen. (2020). Дигитализация на бизнес процеси в строителството и логистиката. 
 
-Kuyumdzhiev, I., & Nacheva, R. (2020). Correlation between storage device and backup and restore efficiency in MS SQL server. Serdica Journal of Computing, 13(3–4), 139–154. https://doi.org/10.55630/sjc.2019.13.139-154
+----
 
 Куюмджиев, Иван Огнянов Методологически и технологични аспекти при архивирането на бази от данни, Унив. изд. Наука и икономика, 2019, 178 с. - (Библ. Проф. Цани Калянджиев ; Кн. 55), ISBN 978-954-21-0988-4.
 
 --------------
 
+Bankov, B. Software solutions for responsive and accessible web systems. Научен семинар „Дигитализация, големи данни, изкуствен интелект“, Варна: Наука и икономика, 2023, 39-43., ISBN(онлайн) 978-954-21-1145-0 / Линк
+_______________________
+
+Стоев, С. Приложение на дизайн чрез шаблони при изграждане на информационни системи. Известия на Съюза на учените - Варна. Сер. Икономически науки, Варна : Съюза на учените - Варна, 7, 2018, 2, 275 - 282.
+______
+
+Parusheva, S., Pencheva, D. Modeling a Business Intelligent System for Managing Orders to Supplier in the Retail Chain with Unified Model Language. Digital Transformation Technology : Proceedings of ITAF 2020, December 16 - 17, 2020 , New York: Springer Publ., 2022, 375-393. - (Lecture Notes in Networks and Systems [LNNS] Book Series ; Vol. 224)., ISBN(печатно) 978-981-16-2275-5 / DOI 
+
+Парушева, С., Александрова, Я. Дигитализация в строителството в контекста на въздействащи движещи сили и фактори. Списание на Българската академия на науките : Общоакадемично списание на БАН, София : Акад. изд. Проф. М. Дринов, Год. 135 , 2022, 2, 65-70., ISSN(печатно) 0007-3989, ISSN(онлайн) 2683-0302 / Линк
+
 Парушева, С. Приложимост и проблеми на облачните услуги в банковия сектор. // Информационните технологии - стратегически приоритет в икономиката на знанието : Междунар. науч. конф. : Посвещава се на 45-год. от създаването на кат. "Бизнес информатика", 14 - 15 окт. 2011 г. / Орг. к-т Румен Върбанов и др. - Свищов : Акад. изд. Ценов, 2011, с. 180 - 187.
 
 ---------
 
-Bankov, B. Software solutions for responsive and accessible web systems. Научен семинар „Дигитализация, големи данни, изкуствен интелект“, Варна: Наука и икономика, 2023, 39-43., ISBN(онлайн) 978-954-21-1145-0 / Линк
-
-_________
-
-
-Сълова, С., Тодоранова, Л., Лазарова, Н., Банков, Б. Интернет технологии : [Учебник за студентите от ИУ - Варна]. Варна : Наука и икономика, 2018, 242.
-
-_______________________
-
-
-Todoranova, Latinka & Penchev, Bonimir. (2020). A Conceptual Framework for Mobile Learning Development in Higher Education. 251-257. 10.1145/3407982.3407996. 
-
-_______________________
-
-Nacheva, R., Sulova, S., & Penchev, B. (2022). Where security meets accessibility: Mobile Research Ecosystem. In Springer eBooks (pp. 216–231). https://doi.org/10.1007/978-3-031-04238-6_17
-
-_______
-
-Начева, Р. Концептуален функционален модел на прототип на система за оценяване на достъпността на мобилни приложения. Човешки ресурси & Технологии = HR & Technologies, Варна : Сдружение Креативно пространство, 2023, 1, 76-98., ISSN(онлайн) 2738-8719 / Линк
-
-----
-
-Aleksandrova, Y. (2021). Predictive analytics implementation in the logistic industry. RePEc: Research Papers in Economics. https://econpapers.repec.org/RePEc:kab:journl:y:2021:i:2:p:6-22
-
-_______________________________
-
-Sulova, S., Aleksandrova, Y., Stoyanova, M., Radev, M. A Predictive Analytics Framework Using Machine Learning for the Logistics Industry. CompSysTech'22 : 23rd International Conference on Computer Systems and Technologies, 17-18 June 2022, University of Ruse, Bulgaria, New York : Association for Computing Machinery, 2022, 39-44., ISBN(онлайн) 978-145039644-8 / DOI 10.1145/3546118.3546130 / Scopus
-
------
-
-Sulova, Snezhana & Petrov, Pavel & Radev, Mihail & Aleksandrova, Yanka & Mileva, Liliya & Yankov, Plamen. (2020). Дигитализация на бизнес процеси в строителството и логистиката. 
-
-_______________________________
-
 Radev, Mihail & Aleksandrova, Yanka. (2013). Combining Virtualization Technologies in SOA-applications. 
-
 _________________________________________________________________________
 
-Parusheva, S., & Pencheva, D. (2021). Modeling a Business Intelligent System for Managing Orders to Supplier in the Retail Chain with Unified Model Language. In Lecture notes in networks and systems (pp. 375–393). https://doi.org/10.1007/978-981-16-2275-5_23
+Тодоранова, Л. Публичният сектор в „облака”. Научни трудове на Русенския университет, 54, 2015, с. 136 - 40.
 
-_________________________________________________________________________
+Todoranova, L., Penchev, B. Digitalization of the public sector. Сборник с доклади от научен семинар "Дигитализация, големи данни, изкуствен интелект“, Наука и икономика, 2023, 68-73., ISBN(онлайн) 978-954-21-1145-0 / Линк
+_______________________
+
+Филипова, Н., Начева, Р., Пенчев, Б. Операционни системи. Варна : Наука и икономика, 2019, 264 с.
+
+_______________________
+
+
 

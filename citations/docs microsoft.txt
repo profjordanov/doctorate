@@ -1,3 +1,58 @@
+Smith, S. (2023) Architecting modern web applications with ASP.NET Core and Microsoft Azure. Microsoft.
+
+---
+
+Roth, D., Fritz, J., & Southwick, T. (2024). Blazor for ASP.NET Web Forms developers. Microsoft.
+
+----
+
+Toub, S. (2024). Performance improvements in .NET 7. Microsoft.
+
+----
+
+
+Vettor, R., & Smith, S. (2024). Architecting cloud-native .NET apps for Azure. Microsoft.
+
+--------------
+
+De la Torre, C. (2023). Containerized Docker application lifecycle with Microsoft platform and tools. Microsoft Corp.
+
+------
+
+Vettor, R., Molenkamp, S., & van Wijk, E. (2024). Dapr for .NET developers. Microsoft. Foreword by M. Russinovich.
+
+-----
+
+Soper, C., Addie, S., & Dembovsky, C. (2024). DevOps for ASP.NET Core developers. Microsoft.
+
+-----
+
+de la Torre, C., Wagner, B., & Rousos, M. (2024). .NET microservices: Architecture for containerized .NET applications. Microsoft Corporation.
+
+-----
+
+de la Torre, C. (2024). Modernize existing .NET applications with Azure cloud and Windows containers. Microsoft Corp.
+
+------
+
+Likness, J., & Phillip, C. (2024). Serverless apps: Architecture, patterns, and Azure implementation. Microsoft.
+
+----
+
+Britch, D. (2024). Enterprise application patterns using Xamarin.Forms. Microsoft.
+
+----
+
+Stonis, M. (2024). Enterprise application patterns using .NET MAUI. Microsoft.
+
+------------
+
+Rendle, M., & Steiner, M. (2024.). gRPC for WCF developers. Microsoft.
+
+
+
+
+______________________________
 Cognitive Services
 https://bit.ly/2XIVTQD
 
