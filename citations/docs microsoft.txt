@@ -1,3 +1,95 @@
+1. Aleksandrova, Y. (2020). Analytical customer relationship management system architecture. Monographic Library "Knowledge and Business", Publishing House "Knowledge and Business".
+
+2. Armiyanova, M. (2019). IoT problems and design patterns which are appropriate to solve them. In Information and Communication Technologies in Business and Education: Proceedings of the International Conference Dedicated to the 50th Anniversary of the Department of Informatics (pp. 291–305). Varna: Science and Economic Publishing House.
+
+3. Armiyanova, M. (2018). Осигуряване на сигурността в облачна система чрез шаблони за проектиране. Известия на Съюза на учените - Варна. Серия Икономически науки, 7(1), 252–261.
+
+4. Armiyanova, M. (2018). Patterns classification criteria and scheme. Eastern Academic Journal, 3, 70–89.
+
+5. Atanasova, A. (2021). Управленско счетоводство. Варна: Наука и икономика.
+
+6. Bankov, B. (2023). Software solutions for responsive and accessible web systems. Научен семинар „Дигитализация, големи данни, изкуствен интелект“, Варна: Наука и икономика, 39–43. ISBN (онлайн) 978-954-21-1145-0.
+
+7. Dimitrov, I. (2020). Проблеми на управленското и финансовото счетоводство при приложението на ERP системи. Варна: Наука и икономика.
+
+8. Dimitrov, P. (2018). Алгоритмични проблеми при внедряване на двуфакторна автентикация в уеб приложения. Научна конференция на младите научни работници - 2018: Сборник с доклади (pp. 126–131). Варна: Стено.
+
+9. Ivanov, S. N. (n.d.). Учебно съдържание по обектно-ориентирано програмиране в профилираната подготовка по информатика. Дипломна работа, Пловдивски университет "Паисий Хилендарски", Факултет по математика и информатика, Катедра "Компютърни технологии".
+
+10. Kuyumdzhiyev, I. O. (2019). Методологически и технологични аспекти при архивирането на бази от данни. Университетско издателство "Наука и икономика", 178 с. (Библиотека Проф. Цани Калянджиев; Книга 55). ISBN 978-954-21-0988-4.
+
+11. Marinova, O. (2023). Critical factors to succeed at adopting agile software development in a distributed environment. Дигитализация, големи данни, изкуствен интелект: Сборник с доклади от научен семинар (pp. 135–140). Икономически университет - Варна. ISBN (онлайн) 978-954-21-1145-0.
+
+12. Milusheva, P. N. (2023). Проблеми при управление на логистиката в строителството: Том 7 (стр. 153 с.). Ико-консулт.
+
+13. Nacheva, R., Sulova, S., & Penchev, B. (2022). Where security meets accessibility: Mobile research ecosystem. In Springer eBooks (pp. 216–231). https://doi.org/10.1007/978-3-031-04238-6_17
+
+14. Parusheva, S., & Pencheva, D. (2022). Modeling a business intelligent system for managing orders to supplier in the retail chain with unified model language. In Digital Transformation Technology: Proceedings of ITAF 2020, December 16–17, 2020 (pp. 375–393). New York: Springer Publ. (Lecture Notes in Networks and Systems [LNNS] Book Series; Vol. 224). ISBN 978-981-16-2275-5.
+
+15. Parusheva, S. (2022). Приложимост и проблеми на облачните услуги в банковия сектор. In Информационните технологии - стратегически приоритет в икономиката на знанието: Международна научна конференция, 14-15 октомври 2011 г. (pp. 180–187). Свищов: Академично издателство Ценов.
+
+16. Parusheva, S., & Aleksandrova, Y. (2022). Дигитализация в строителството в контекста на въздействащи движещи сили и фактори. Списание на Българската академия на науките: Общоакадемично списание на БАН, 135(2), 65–70.
+
+17. Radev, M., & Aleksandrova, Y. (2013). Combining virtualization technologies in SOA-applications.
+
+18. Sulov, V. (2024). Render modes of .NET Blazor technology. Journal of Informatics and Innovative Technologies, 6(1), 9–12. ISSN (печатно) 2682-9517, ISSN (онлайн) 2683-0930.
+
+19. Sulov, V. (2022). Приложение на проектите на платформата .NET при разработка на уеб приложения. Известия на Икономически университет - Варна, 66(4), 362–375. ISSN (печатно) 1310-0343, ISSN (онлайн) 2367-6949.
+
+20. Sulova, S. (2023). A conceptual framework for the technological advancement of e-commerce applications. Businesses, 3(1), 220–230. https://doi.org/10.3390/businesses3010015
+
+21. Sulova, S., Aleksandrova, Y., & Stoyanova, M. (2022). A predictive analytics framework using machine learning for the logistics industry. In CompSysTech'22: 23rd International Conference on Computer Systems and Technologies, 17-18 June 2022, University of Ruse, Bulgaria (pp. 39–44). New York: Association for Computing Machinery. ISBN 978-145039644-8. https://doi.org/10.1145/3546118.3546130
+
+22. Sulova, S. (2021). Big data processing in the logistics industry. Knowledge and Business Monographic Library, 7, 6–19.
+
+23. Sulova, S., Petrov, P., Radev, M., Aleksandrova, Y., Mileva, L., & Yankov, P. (2020). Дигитализация на бизнес процеси в строителството и логистиката. Knowledge and Business Monographic Library, 8, April.
+
+24. Sulova, S., Bankov, B., & Stoyanova, M. (2024). Уеб технологии. Варна: Наука и икономика. ISBN 978-954-21-1169-6.
+
+25. Todoranova, L., & Penchev, B. (2023). Digitalization of the public sector. In Сборник с доклади от научен семинар "Дигитализация, големи данни, изкуствен интелект" (pp. 68–73). Варна: Наука и икономика. ISBN 978-954-21-1145-0.
+
+26. Todoranova, L. (2015). Публичният сектор в „облака”. Научни трудове на Русенския университет, 54, 136–140.
+
+27. Vasilev, J., & Stoyanova, M. (2019). Information sharing with upstream partners of supply chains. In Proceedings of the 19th International Multidisciplinary Scientific GeoConference SGEM 2019, Geoinformatics and Remote Sensing (Vol. 19, Informatics, Issue 2.1, pp. 329–336). Sofia: STEF92 Technology Ltd. ISBN 978-619-7408-76-8.
+
+28. Vasilev, Y. (2021). Надграждане на банковия софтуер - генериране на декларации по GDPR. Защитата на личните данни и дигитализацията - предизвикателства и перспективи: Сборник с доклади [от кръгла маса, проведена в ИУ - Варна, 1 октомври 2021] (pp. 56–63). Варна: Наука и икономика.
+
+29. Stoev, S. (2018). Приложение на дизайн чрез шаблони при изграждане на информационни системи. Известия на Съюза на учените - Варна. Серия Икономически науки, 7(2), 275–282.
+
+30. Parusheva, S., & Aleksandrova, Y. (2022). Дигитализация в строителството в контекста на въздействащи движещи сили и фактори. Списание на Българската академия на науките: Общоакадемично списание на БАН, 135(
+
+2), 65–70.
+
+Here are the provided citations converted to APA style:
+
+1. Smith, S. (2023). *Architecting modern web applications with ASP.NET Core and Microsoft Azure*. Microsoft.
+
+2. Roth, D., Fritz, J., & Southwick, T. (2024). *Blazor for ASP.NET Web Forms developers*. Microsoft.
+
+3. Toub, S. (2024). *Performance improvements in .NET 7*. Microsoft.
+
+4. Vettor, R., & Smith, S. (2024). *Architecting cloud-native .NET apps for Azure*. Microsoft.
+
+5. De la Torre, C. (2023). *Containerized Docker application lifecycle with Microsoft platform and tools*. Microsoft Corp.
+
+6. Vettor, R., Molenkamp, S., & van Wijk, E. (2024). *Dapr for .NET developers*. Microsoft. Foreword by M. Russinovich.
+
+7. Soper, C., Addie, S., & Dembovsky, C. (2024). *DevOps for ASP.NET Core developers*. Microsoft.
+
+8. de la Torre, C., Wagner, B., & Rousos, M. (2024). *.NET microservices: Architecture for containerized .NET applications*. Microsoft Corporation.
+
+9. de la Torre, C. (2024). *Modernize existing .NET applications with Azure cloud and Windows containers*. Microsoft Corp.
+
+10. Likness, J., & Phillip, C. (2024). *Serverless apps: Architecture, patterns, and Azure implementation*. Microsoft.
+
+11. Britch, D. (2024). *Enterprise application patterns using Xamarin.Forms*. Microsoft.
+
+12. Stonis, M. (2024). *Enterprise application patterns using .NET MAUI*. Microsoft.
+
+13. Rendle, M., & Steiner, M. (2024). *gRPC for WCF developers*. Microsoft.
+
+
+
 Smith, S. (2023) Architecting modern web applications with ASP.NET Core and Microsoft Azure. Microsoft.
 
 ---
