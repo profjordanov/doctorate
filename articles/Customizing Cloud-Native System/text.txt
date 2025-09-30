@@ -1,0 +1,142 @@
+Scholarly article title: Customizing Cloud‑Native Systems for the Manufacturing Sector
+
+Abstract:
+In the contemporary business environment, manufacturing enterprises face ever‑higher demands for efficiency and adaptability. The adoption of cloud services has emerged as an effective approach for optimizing communication within organizations, maintaining relationships with business clients and partners, and meeting rapidly changing market expectations. The topic’s relevance is driven by the trend of cloud technologies becoming a strategic tool for future growth, modernization, and digital transformation within manufacturing enterprises. This trend is likely to continue as cloud platforms enable the rapid implementation of innovative ideas.
+
+Introduction:
+In the context of the Fourth Industrial Revolution, characterized by the widespread application of digital technologies in manufacturing, several challenges have arisen:
+- the need for interoperability and interaction among various internal and external information systems;
+- the need to ensure cybersecurity and reliable data‑exchange mechanisms;
+- the need for dependable storage and processing of large volumes of data;
+- compliance with local regulations in global operations.
+
+The development of cloud services, particularly the IaaS, PaaS, and SaaS models, opens new opportunities for the digitalization of business processes in the manufacturing sector. Applying these models eliminates the need to maintain local computer infrastructure typical of on‑premises services, while providing companies with the ability to implement software products tailored to their specific needs. The flexibility of these models allows enterprises to adapt to changing market conditions by facilitating faster decision‑making based on real‑time data and by improving planning and forecasting capabilities.
+
+The purpose of this study is to analyze and design an integrated cloud‑native architecture that unifies complex manufacturing business operations by configuring IaaS, PaaS, and SaaS components to enterprise‑specific requirements. A review of scholarly and industry sources reveals a lack of a well‑defined conceptual model that holistically addresses manufacturing complexity through integrated cloud capabilities. Consequently, the subject of this research is a high‑level conceptual model for a distributed manufacturing information system.
+
+Research methodology:
+The study’s methodological framework employed several methods: a systematic literature review of scholarly articles and white papers; comparative analysis of leading platforms, web, and mobile technologies; classification and typification to group manufacturing information systems and map them to business capabilities; and modeling of the target cloud‑native architecture using graphical, schematic, and pictorial approaches.
+
+Main text of the paper:
+
+HEADLINE 1 – Opportunities for Customizing Business Processes Through Cloud Technologies
+
+Historically, manufacturing enterprises have relied on manual processes involving numerous participants across various departments and external partners. In the late 1990s, a range of business systems was introduced, including Enterprise Resource Planning (ERP), Customer Relationship Management (CRM), Manufacturing Execution Systems (MES), Supply Chain Management (SCM), Product Lifecycle Management (PLM), Enterprise Asset Management (EAM), Quality Management Systems (QMS), Advanced Planning and Scheduling (APS), and Supplier Relationship Management (SRM). However, these systems often function as standalone tools, limiting communication and information sharing among internal and external stakeholders. This lack of integration hinders efficient data entry and processing and creates significant barriers to effective business‑process management.
+
+According to various studies, ERP functions as the central hub, connecting strategic planning, procurement, operations, logistics, and the product lifecycle. A corporate system such as SAP S/4HANA often forms the core of an interconnected model. Generally, SAP stands out as one of the leading ERP solutions. As of April 2025, 86% of Fortune 500 companies and 92% of Forbes Global 2000 companies relied on SAP. More than 77% of global revenue transactions are processed through this system, which is used by over 400,000 organizations across 180 countries. SAP’s capabilities are divided into modules organized under three main categories: logistics, accounting, and human resources management.
+
+Additional subsystems that can complement SAP’s capabilities include Oracle NetSuite, JD Edwards EnterpriseOne, Microsoft Dynamics 365, and Infor CloudSuite. These systems manage the flow of goods, materials, information, and capital, helping to ensure effective and coordinated operations. Together, they contribute to an interconnected model—presented in Figure 1—aimed at developing a cohesive strategy for delivering finished products.
+
+(Figure 1. A model of the interconnection between the main components of the strategy for delivering finished products. Adapted from: Türkay et al., 2016; Vasilev & Stoyanova, 2019.)
+
+This interconnected model enhances quality and cost efficiency, which are essential for modern manufacturing environments. Organizations can improve forecasting, resource allocation, inventory management, and coordination across procurement, production operations, and logistics. However, interactions among these internal and external information subsystems require resilience, high availability, accessibility, scalability, and manageability.
+
+Building on this interconnected model, the next stage involves customizing a cloud‑native system. The aim of the cloud system is to function as a central integrator, connecting diverse subsystems such as ERP, CRM, MES, and SCM. This model ensures continuous data exchange. The transition from traditional subsystems to customized cloud‑native solutions highlights the sector’s shift toward a new phase of industrialization. In this regard, Figure 2 presents a model of a cloud‑based system for managing manufacturing business operations in a specific company.
+
+(Figure 2. Model of a customized cloud‑based system for manufacturing business management. Adapted from: Verwijmeren, 2004; Caserio & Trucco, 2018; Shishmanov & Marinova‑Kostova, 2024.)
+
+Based on the derived theoretical postulates, there is a clear need for a customized cloud system. Therefore, we propose a conceptual model that describes the software elements, interfaces, and suitable algorithms, as well as an architectural diagram of the software technologies.
+
+HEADLINE 2 – Architecture of a Cloud‑Based Manufacturing Information System
+
+This chapter examines the system’s core components, exploring their interrelationships and overall composition. Configured to the specific needs of a manufacturing enterprise, the cloud system manages key business processes and activities by extracting and analyzing data in real time. Implementing the conceptual model proceeds through an iterative process involving two stages: defining the functional and non‑functional requirements and performing a high‑level concept review.
+
+According to Vasilev, well‑defined requirements are crucial to a project’s success. By examining the theoretical foundations, terminology, and technologies, both functional and non‑functional requirements can be established. The system’s functional requirements focus on enhancing business planning, control, management, data analytics, document workflows, user administration, and integration capabilities through application programming interfaces (APIs). These capabilities should be supported across web, desktop, and mobile applications, enabling direct use by business customers, partners, and stakeholders. Furthermore, the system could provide real‑time data through Internet of Things (IoT) devices, ensuring timely and accurate information.
+
+Common non‑functional requirements include ensuring continuous system operation with minimal downtime; providing scalable capacity by adding or adjusting resources to accommodate increased workloads; maintaining correct operation despite individual component failures; meeting responsiveness and latency targets under anticipated loads; and offering comprehensive insights into system health through metrics, logs, and traces.
+
+Based on the defined requirements and business operations, the conceptual model (Figure 3) encompasses client applications, cloud microservices, and internal and external corporate subsystems.
+
+(Figure 3. High‑level conceptual model (author’s development).)
+
+The cloud‑based system is composed of autonomous modules, each with distinct responsibilities. These modules aggregate and store data through a suite of microservices and NoSQL databases that integrate with internal subsystems and external IoT devices. The services that support these modules adhere to the principles and practices of IaaS, PaaS, and SaaS. IaaS resources orchestrate virtual machines, private networks, and load balancers. The microservices and databases rely on PaaS, while SaaS supports streaming, monitoring, and message‑broker backing services.
+
+A comparative analysis of web‑based frameworks and programming languages shows that ASP.NET Core is a suitable choice for building microservices. Further evaluation of key technological aspects reveals that Microsoft Azure has established itself as a leading cloud platform.
+
+The following summarizes the technological tools selected for implementing the cloud system:
+• ASP.NET Core for server‑side logic and microservices
+• Azure as the public cloud service provider
+• Azure SQL Database, Cosmos DB, and Blob Storage for data storage
+• RabbitMQ as the message broker
+• Blazor for the web portal
+• .NET MAUI for mobile application development
+
+(Figure 4. AzureArchDiagr_EN.drawio)
+
+
+
+
+
+
+
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+I’ve reviewed your article to surface weak points and propose concise, high‑impact fixes.
+
+Checklist
+
+Content and claims
+Methodology and research gap
+Architecture and technical depth
+Security, compliance, and reliability
+Data, integration, and interoperability
+Edge/IoT considerations
+Evaluation and validation
+Figures, references, and permissions
+Style, consistency, and clarity
+Weak points and how to fix them
+Content and claims
+Market share/data claims lack citations (e.g., “As of April 2025… 77% of global revenue transactions” for SAP). Action: add recent, authoritative citations or soften language.
+Research contribution is stated broadly; the “conceptual model” novelty vs. existing frameworks (RAMI 4.0, IIC IIRA, ISA‑95/88, 5C architecture, GAIA‑X, Digital Twin) isn’t demonstrated. Action: add a Related Work section and an explicit gap table mapping what’s missing and how your model fills it.
+Methodology and research gap
+“Systematic literature review” is not reproducible (no databases, time window, keywords, inclusion/exclusion, PRISMA flow). Action: add protocol, search string, years covered, screening counts.
+“Comparative analysis” has no criteria or scoring. Action: define evaluation criteria (e.g., scalability, latency, multi‑site support, compliance, cost), weights, and present a results table.
+Architecture and technical depth
+High‑level only; missing measurable requirements and concrete design details. Action:
+Quantify SLOs: availability (e.g., 99.95%), latency (p95 < 200 ms for API X), throughput, RPO/RTO.
+Add service decomposition with bounded contexts, API contracts, event schemas, idempotency rules, and error handling patterns.
+Justify RabbitMQ vs. Kafka (ordering, throughput, back‑pressure, exactly‑once semantics).
+Map Azure services explicitly: API Management, AKS/Container Apps, Functions, Service Bus vs. Event Hubs, Cosmos DB (consistency levels/partitioning), Azure SQL (HA/DR), Storage, Key Vault, Monitor/Log Analytics, Application Insights, Front Door/Traffic Manager, VNet/Private Link, WAF, Azure AD.
+Security, compliance, and reliability
+Security is mentioned but not specified. Action:
+Identity: Azure AD, app roles, managed identities, AAD B2B/B2C.
+Secrets/keys: Key Vault with rotation policies; HSM if needed.
+Network: zero‑trust, private endpoints, NSGs, segmentation (OT vs. IT), jump boxes/Bastion.
+Compliance: IEC 62443 (industrial), ISO 27001, NIST 800‑53/CSF, GDPR/ITAR/data sovereignty; add a matrix mapping controls to components.
+Resilience: multi‑zone/region deployment, chaos testing, fallback modes; define RPO/RTO.
+Observability: traces/logs/metrics with OpenTelemetry; SLO alerts and runbooks.
+Data, integration, and interoperability
+No canonical data models or standards. Action:
+Define MDM domains (materials, BOM, assets, suppliers, customers).
+Protocols: OPC UA, MQTT, AMQP; mapping to ISA‑95 (B2MML) for enterprise integration.
+Historian/SCADA integration approach, data retention, time‑series storage (e.g., ADX), schema evolution strategy.
+Edge/IoT considerations
+Edge/offline operation is missing—critical in manufacturing. Action:
+Azure IoT Hub + DPS + IoT Edge; local buffering, command & control, offline resilience.
+Device identity and X.509 provisioning, firmware update process, secure boot, attestation.
+Latency budget and bandwidth constraints between edge and cloud.
+Evaluation and validation
+No validation plan. Action:
+Provide a case study or pilot; define KPIs (OEE, lead time reduction, forecast accuracy, downtime reduction).
+Include load testing plan (tools, traffic model, target throughput), security testing, and cost benchmarking.
+Figures, references, and permissions
+Figures referenced but not shown; “adapted from” may need permissions and exact sources. Action:
+Embed figures; ensure numbering and captions are consistent; include source details and permissions/licenses.
+Add a complete references section with consistent style (APA/IEEE) and in‑text citation alignment.
+Style, consistency, and clarity
+Some terms fluctuate (“capabilities” vs. “functionalities”; “real time” vs. “real‑time”). Action: pick a style guide and unify.
+Section headings could reflect standard academic flow: Abstract, Introduction, Related Work, Methods, Architecture, Evaluation, Discussion, Limitations, Conclusion.
+High‑impact fixes (prioritized)
+Add a Related Work section contrasting your model with RAMI 4.0, IIRA, ISA‑95/88, and 5C; include a gap table.
+Quantify non‑functional requirements with concrete SLOs and targets; add RPO/RTO and regional topology.
+Provide an Azure reference architecture diagram with explicit services, private networking, and identity flows.
+Detail microservice boundaries, API contracts, and event schemas (with versioning and idempotency).
+Introduce Edge architecture (IoT Hub+DPS+IoT Edge) and offline strategies.
+Add a Security & Compliance section mapped to IEC 62443/ISO 27001/GDPR; include key vaulting, zero‑trust, and monitoring.
+Define data models/standards (ISA‑95/B2MML, OPC UA, MQTT) and MDM approach.
+Justify tech choices (RabbitMQ vs. Kafka, Cosmos DB vs. Azure SQL) with decision criteria.
+Include an evaluation plan (KPIs, load/security testing, cost/FinOps).
+Complete references and figure permissions; embed figures.
+If you want, I can implement these as new sections and a refined figure/requirements matrix directly in Customizing Cloud-Native Systems for the Manufacturing Sector.txt.
